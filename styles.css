@@ -1,0 +1,141 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("images/torshov.jpg");
+    background-size: cover;
+        height: 343px;
+
+}
+
+#text-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    color: white;
+}
+
+
+.text-background {
+    background: indigo;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#secondary {
+    background: navy;
+    margin-top: 10px;
+}
+
+#profile-img {
+    border-radius: 0;
+}
+
+#image-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    height: 378px;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
+
+#business-card {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+    padding: 10px;
+    height: 300px;
+    border-radius: 10px;
+    border-bottom: 5px solid indigo;
+    
+}
+
+#business-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 30px;
+}
+
+#profile-img {
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+p {
+    margin: 5px 5px 5px 5px;
+}
+
+#last {
+    background: white;
+}
